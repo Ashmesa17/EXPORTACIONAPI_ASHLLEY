@@ -29,7 +29,7 @@ class Server{
     }
 
     listen(){
-        this.app.listen(process.env.port, () => {
+        this.app.listen(process.env.PORT, () => {
             console.log(`Server is running`);  
         })
     }
